@@ -1,0 +1,14 @@
+
+<div style="text-align: center;">
+    <div class="form-inline">   
+        Username :<input type="text" placeholder="username" class="form-control" #username> <br>
+    </div>
+
+    <div class="form-inline">
+       new Passsword <input type="text" placeholder="New password"class="form-control" #userPass></div>
+    
+    <input type="submit" value="change" (click)="changed(userPass.value , username.value)">
+</div>
+<div style="text-align: center;">
+<h1>{{msg}}</h1>
+</div>

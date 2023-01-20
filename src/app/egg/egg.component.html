@@ -1,0 +1,15 @@
+
+<div class="xyz">
+    
+        <tr *ngFor="let item of egg">
+            <img src={{item.pic}} alt="image not found" height="500px"><br>
+           <h1>Dish name:{{item.name}} <br>
+            Dish price:{{item.price | currency:'INR'}} <br>
+            Restrorent :{{item.restro}} <br></h1>
+            <div class="form-inline">
+            <button type="submit" class="btn btn-success" (click)="order()">Order</button><br>
+           </div>
+           <br>
+        </tr>
+     
+</div>

@@ -1,0 +1,19 @@
+<div style="text-align:center">
+    
+    <div class="form-inline">
+        User Name: <input type="text" placeholder="name" class="form-control" name="username" required  #username><br> <br> 
+
+    
+            Address:<input type="text"placeholder="Address" class="form-control" required><br> <br>
+        
+        
+        
+            payment:<input type="text" class="form-control" placeholder="payment" required #payment><br><br>
+        
+        Phone No.:<input type="text" class="form-control" placeholder="phone" required #phone><br> <br>
+    
+    <input type="submit" value="Done" class="btn btn-success" (click)="complete(username.value,phone.value,payment.value)">
+</div>
+<h1>{{msg}}</h1>    
+</div>
+
